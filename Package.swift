@@ -16,7 +16,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
 		.binaryTarget(
 				name: "GoogleMapsCore",
-				path: "Sources/GoogleMapsSPM/GoogleMapsCore.xcframework"
+				url: "https://github.com/hgpush/google-maps-core/releases/download/1.0.0/GoogleMapsCore.xcframework.zip",
+				checksum: "cfd2d8f07e08fd3882e10fb5f0910e129dbbbec8b17932ced99c30c965febe53"
 		),
     ]
 )
